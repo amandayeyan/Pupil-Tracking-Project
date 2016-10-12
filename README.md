@@ -4,7 +4,7 @@ Setups
 - Hardware: Logitech webcam C525
 
 
-Face track   
+Step 1 - Face track   
 Frontal face template
 - You may take a snapshot of your frontal face using webcam and crop out only the face region (squared region) without background. 
 - Name the cropped image as 'myFace-template.jpg'.
