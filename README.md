@@ -12,3 +12,7 @@ Use frontal face template
 Try tune the threshold value to get more robust result. 
 
 Even when you turn your head a little bit, it can trace your face with low threshold value.	Change to another face, it still works.
+
+
+Coming soon...
+Eye pupil tracking
