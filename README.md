@@ -14,5 +14,9 @@ Try tune the threshold value to get more robust result.
 Even when you turn your head a little bit, it can trace your face with low threshold value.	Change to another face, it still works.
 
 
-Coming soon...
-Eye pupil tracking
+1(b). Apply Haar Cascades frontal face detector 
+Download xml file from https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml 
+
+Note the license using the Cascades.
+
+Coming soon ...
