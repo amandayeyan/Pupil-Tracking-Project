@@ -18,7 +18,8 @@ Even when you turn your head a little bit, it can trace your face with low thres
 Download xml file from https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml 
 Note the license using the Cascades.
 
-##3. Apply canny edge and Hough Transform to find circles in extracted eye region. So far,a complete version is realised but can only track full circles.  
+##3. Apply canny edge and Hough Transform to find circles in extracted eye region. 
+So far,a complete version is realised but can only track full circles.  
 
 
 Coming soon ...
