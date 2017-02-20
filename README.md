@@ -1,6 +1,9 @@
 #Pupil-Tracking-Project
 This project aims to track the pupil boundary in real-time.
 
+###A quick demo is found here.
+https://youtu.be/3MKtuQSaXd4 
+
 ##Setups	
 - Software: Windows 8, OpenCV 3.10 and Pyhton 2.7	
 - Hardware: IR camera, resolution 640x480.
