@@ -6,14 +6,14 @@ This project aims to track the pupil boundary in real-time.
 - Hardware: IR camera, resolution 640x480.
 
 ##Pipeline
-### Pre-process to crop eye region
+####Pre-process to crop eye region
 1. Read video streaming from camera frame by frame
 2. Grayscale
 3. Smooth image with median blur filter. For this application, median blur works better than gaussian blur.
 4. Apply Haar Cascades frontal face detector[1]
 5. Crop eye region with geometry assumption that eye location is relatively fixed to face.
 
-### Apply algorithms to fit pupil boundary with ellipse (Demo for one pupil only)
+####Apply algorithms to fit pupil boundary with ellipse (Demo for one pupil only)
 4. Compute sobel directions of gradient
 5. Canny edge
 6. Find contours on the canny edges. Discard contours with large arc perimeter.
@@ -22,7 +22,7 @@ This project aims to track the pupil boundary in real-time.
 8. Fit ellipse for the contour
 
 
-Reference
+##Reference
 [1] Apply Haar Cascades frontal face detector 
 Download xml file from https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml 
 Note the license using the Cascades.
